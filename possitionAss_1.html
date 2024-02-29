@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 01</title>
+    <link rel="stylesheet" href="Assest/normalize.css">
+
+    <style>
+
+        body{
+            overflow: hidden;
+        }
+
+        section{
+            width: 98%;
+            height: 98%;
+            border: 1px solid black;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #div1{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        #div2{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+            background-color: #007d13;
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        #div3{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+            background-color: #ffa600;
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+        #div4{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+            background-color: #ff00cd;
+
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        #div5{
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            background-color: #ffffff;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div6{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div7{
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            background-color: #ffffff;
+            border-radius: 100%;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #div8{
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            background-color: #ffffff;
+            border-radius: 100%;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #div9{
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            background-color: #ffffff;
+            border-radius: 100%;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #div10{
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            background-color: #ffffff;
+            border-radius: 100%;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #div11{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div12{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div13{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #div14{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: #ff0000;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #dive15 {
+            width: 12%;
+            aspect-ratio: 1/1;
+            border-radius: 0 0 100% 100%;
+            background-color: white;
+            position: absolute;
+            top: -12%;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        #dive16 {
+            width: 12%;
+            aspect-ratio: 1/1;
+            border-radius: 100% 100% 0 0;
+            background-color: white;
+            position: absolute;
+            bottom: -12%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #dive17 {
+            width: 10%;
+            aspect-ratio: 1/1;
+            border-radius: 0 0 100% 0;
+            background-color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: auto;
+        }
+        #dive18 {
+            width: 10%;
+            aspect-ratio: 1/1;
+            border-radius: 0 0 0 100%;
+            background-color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: auto;
+        }
+        #dive19 {
+            width: 10%;
+            aspect-ratio: 1/1;
+            border-radius: 0 100% 0 0;
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        #dive20 {
+            width: 10%;
+            aspect-ratio: 1/1;
+            border-radius: 100% 0 0 0;
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section>
+        <div id="div1">
+            <div id="div7">
+                <div id="div11"></div>
+            </div>
+        </div>
+
+        <div id="div2">
+            <div id="div8">
+                <div id="div12"></div>
+            </div>
+        </div>
+
+        <div id="div3">
+            <div id="div9">
+                <div id="div13"></div>
+            </div>
+        </div>
+
+        <div id="div4">
+            <div id="div10">
+                <div id="div14"></div>
+            </div>
+        </div>
+
+        <div id="div5"></div>
+        <div id="div6"></div>
+
+        <div id="dive15"></div>
+        <div id="dive16"></div>
+        <div id="dive17"></div>
+        <div id="dive18"></div>
+        <div id="dive19"></div>
+        <div id="dive20"></div>
+
+    </section>
+
+</body>
+</html>
